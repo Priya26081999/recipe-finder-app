@@ -3,8 +3,8 @@ import { Heart, Globe, Github } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-8 px-4 ">
-      <div className="max-w-5xl mx-auto text-center space-y-4">
+    <footer className="bg-gray-700 text-gray-300 py-5 px-6 ">
+      <div className="max-w-5xl mx-auto text-center space-y-2">
       
         <h2 className="text-2xl font-semibold text-white flex justify-center items-center gap-2">
           <Globe className="text-orange-400" size={22} />
@@ -12,7 +12,7 @@ export default function Footer() {
         </h2>
 
        
-        <p className="text-gray-400 max-w-lg mx-auto text-sm sm:text-base leading-relaxed">
+        <p className="text-gray-400 max-w-lg mx-auto text-medium sm:text-base leading-relaxed">
           Discover and save your favorite dishes from around the world.  
           Explore endless meal ideas and cook something amazing every day!
         </p>

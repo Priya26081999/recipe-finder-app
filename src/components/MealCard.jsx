@@ -35,7 +35,7 @@ export default function MealCard({ meal, onOpen }) {
         className="absolute top-3 right-3 z-10 bg-black/60 p-2 rounded-full hover:bg-black/80 transition"
       >
         <Heart
-          size={26}
+          size={20}
           className={isFavorite ? "text-red-500 fill-red-500" : "text-gray-200"}
         />
       </button>
@@ -47,7 +47,7 @@ export default function MealCard({ meal, onOpen }) {
       />
 
       <div className="p-4 flex flex-col">
-        <h3 className="font-semibold text-lg mb-4 text-center">
+        <h3 className="font-semibold text-medium mb-4 text-center">
           {meal.strMeal}
         </h3>
         <button

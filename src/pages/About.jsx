@@ -7,14 +7,14 @@ const About = () => {
       <div className="max-w-3xl text-center">
        
         <div className="flex flex-col items-center mb-6">
-          <UtensilsCrossed className="text-orange-500 mb-3" size={48} />
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
+          <UtensilsCrossed className="text-orange-500 mb-3" size={40} />
+          <h1 className="text-4xl md:text-3xl font-bold mb-4 text-white">
             About Recipe Finder
           </h1>
         </div>
 
        
-        <p className="text-gray-300 text-lg leading-relaxed mb-8">
+        <p className="text-gray-300 text-small leading-relaxed mb-8">
           <span className="text-orange-400 font-semibold">Recipe Finder</span> is a modern web
           application designed to help food lovers discover, explore, and cook delicious meals from
           around the world. Whether you're craving an Indian curry, Chinese noodles, or a French
@@ -22,7 +22,7 @@ const About = () => {
         </p>
 
       
-        <div className="bg-gray-900 border border-gray-800 rounded-2xl p-6 mb-8 shadow-md">
+        <div className="bg-gray-900 border border-gray-800 rounded-2xl p-4 mb-8 shadow-md">
           <div className="flex items-center justify-center gap-2 mb-4">
             <Code2 className="text-orange-500" size={28} />
             <h2 className="text-xl font-semibold text-white">Built With</h2>

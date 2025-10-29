@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 left-0 w-full z-50 bg-gradient-to-r from-orange-500 via-pink-500 to-red-500 text-white shadow-lg">
-      <div className="max-w-6xl mx-auto px-5 py-6 flex justify-between items-center">
+      <div className="max-w-5xl mx-auto px-5 py-4 flex justify-between items-center">
        
         <div className="flex items-center gap-2">
           <UtensilsCrossed size={28} className="text-yellow-200" />
@@ -15,17 +15,17 @@ const Navbar = () => {
         </div>
 
       
-        <ul className="hidden md:flex space-x-10 text-lg font-medium">
-          <li className="flex items-center gap-2 hover:text-yellow-200 transition-all duration-200 cursor-pointer">
-            <Home size={20} /> <Link to="/">Home</Link>
+        <ul className="hidden md:flex space-x-10 text-medium font-medium">
+          <li className="flex items-center gap-1 hover:text-yellow-200 transition-all duration-200 cursor-pointer">
+            <Home size={20} /> <Link to="/"> Home</Link>
           </li>
-          <li className="flex items-center gap-2 hover:text-yellow-200 transition-all duration-200 cursor-pointer">
-            <BookOpen size={20} /> <Link to="/recipes">All Recipes</Link>
+          <li className="flex items-center gap-1 hover:text-yellow-200 transition-all duration-200 cursor-pointer">
+            <BookOpen size={20} /> <Link to="/recipes"> All Recipes</Link>
           </li>
-          <li className="flex items-center gap-2 hover:text-yellow-200 transition-all duration-200 cursor-pointer">
+          <li className="flex items-center gap-1 hover:text-yellow-200 transition-all duration-200 cursor-pointer">
             <Heart size={20} /> <Link to="/favorites">Favourites</Link>
           </li>
-          <li className="flex items-center gap-2 hover:text-yellow-200 transition-all duration-200 cursor-pointer">
+          <li className="flex items-center gap-1 hover:text-yellow-200 transition-all duration-200 cursor-pointer">
             <Info size={20} /> <Link to="/about">About</Link>
           </li>
         </ul>

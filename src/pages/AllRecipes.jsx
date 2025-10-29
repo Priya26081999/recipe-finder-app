@@ -73,7 +73,7 @@ const AllRecipes = () => {
 
   return (
     <div className="bg-gray-900 text-white min-h-screen p-6">
-      <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">
+      <h1 className="text-3xl md:text-3xl font-bold text-center mb-8">
         Explore Recipes from Around the World
       </h1>
 
@@ -96,7 +96,7 @@ const AllRecipes = () => {
 
     
 
-<p className="text-center text-gray-400 mb-10 text-lg flex justify-center items-center gap-2">
+<p className="text-center text-gray-400 mb-10 text-medium flex justify-center items-center gap-2">
   {active === "Popular" ? (
     <>
       <UtensilsCrossed className="w-5 h-5 text-orange-400" />

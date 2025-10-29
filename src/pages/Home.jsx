@@ -16,7 +16,7 @@ const Home = () => {
 
   return (
     <div
-      className="h-screen w-full bg-cover bg-center flex flex-col items-center justify-center text-center relative"
+      className="h-screen w-full bg-cover bg-center  object-cover flex  items-center justify-center text-center relative"
       style={{
         backgroundImage:
           "url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=2000&q=80')",
@@ -27,10 +27,10 @@ const Home = () => {
 
      
       <div className="relative z-10 max-w-2xl px-6">
-        <h1 className="text-5xl md:text-6xl font-extrabold text-white mb-4 drop-shadow-lg">
+        <h1 className="text-4xl md:text-4xl font-extrabold text-white mb-4 drop-shadow-lg">
           Recipe Finder
         </h1>
-       ";
+      
 
 <p className="text-lg md:text-xl text-gray-200 mb-8 flex items-center justify-center gap-2">
   <span>Discover, Cook, and Enjoy Delicious Meals from Around the World</span>
