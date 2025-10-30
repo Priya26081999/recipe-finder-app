@@ -22,27 +22,34 @@ Users can also like and save their favorite recipes to a Favourites Page using l
 
 ## Tech Stack
 
-- ** Fo
+- ** Frontend: ** React.js (Vite)
+- **Styling : ** Tailwind CSS
+- ** API : ** TheMealDB API
+- ** Storage : **localStorage 
+- ** Deployment : ** Vercel
 
 
 ## Installation Steps
 1. Clone the repository
  git clone https://github.com/Priya26081999/recipe-finder-app.git
-2. Navigate to the project directory
+
+3. Navigate to the project directory
  cd recipe-finder-app
-3. Install dependencies
+
+5. Install dependencies
  npm install
-4. Start the development server
+
+7. Start the development server
  npm run dev
 
 ---
-🌐 API Reference – TheMealDB
+## 🌐 API Reference – TheMealDB
 Visit the official API documentation:
 https://www.themealdb.com/api.php
 
 ---
 
-Folder Structure
+## Folder Structure
 
 recipe-finder-app/
 │
@@ -73,7 +80,7 @@ Deployment
 
 Live Demo: https://recipe-finder-app-snowy.vercel.app
 
-Author
+## 👩‍💻 Author
 ** ArunPriya E **
 [GitHub] (https://github.com/Priya26081999)
 
