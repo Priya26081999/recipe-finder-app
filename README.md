@@ -3,6 +3,7 @@
 The Recipe Finder App is a modern web application built using React, Tailwind CSS, and the TheMealDB API.
 It allows users to search recipes by name or ingredient, explore categories like Indian, Chinese, Japanese, and Desserts, and view full recipe details including ingredients, instructions, and a YouTube video tutorial.
 Users can also like and save their favorite recipes to a Favourites Page using localStorage.
+
 ---
 
 ## Features
@@ -21,15 +22,18 @@ Users can also like and save their favorite recipes to a Favourites Page using l
 ⚡ Fast Performance powered by Vite + React
 
 ---
+
+
 ## Tech Stack
 
-- ## Frontend: ** React.js (Vite)
-- ## Styling : ** Tailwind CSS
-- ##  API : ** TheMealDB API
-- ##  Storage : **localStorage 
-- ##  Deployment : ** Vercel
-
+-  Frontend:  React.js (Vite)
+-  Styling :  Tailwind CSS
+-   API :  TheMealDB API
+-   Storage : localStorage 
+-   Deployment : Vercel
+ 
 ---
+
 ## Installation Steps
 1. Clone the repository
  git clone https://github.com/Priya26081999/recipe-finder-app.git
